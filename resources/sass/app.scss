@@ -1,0 +1,29 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// Custom styles
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.order-status-badge {
+    font-size: 0.9rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
